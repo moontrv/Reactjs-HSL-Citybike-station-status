@@ -1,0 +1,87 @@
+.leaflet-container {
+    height: 600px;
+    width: 100%;
+}
+.bikesAvailable{
+    background-color: green;
+    color: white;
+}
+
+.bike-image{
+    height: 25px;
+    widows: 25px;
+}
+
+.number-icon
+{
+    background-image: url("https://kaupunkipyorat.hsl.fi/modules/custom/hsl_citybike_pages/assets/dist/img/citybike.svg");
+    text-align:center;
+    background-repeat: no-repeat;
+}
+
+.number-icon span{
+    width: 15px;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: -30%;
+    top: -10%;
+    color: white;
+    /* background-color: #DC0451; */
+    border-radius: 50%;
+}
+
+.green-span span{
+    background-color: #64BE14;
+}
+.orange-span span{
+    background-color: #FF9000;
+}
+.red-span span{
+    background-color: #DC0451;
+}
+.green-text{
+    color: #64BE14;
+}
+.orange-text{
+    color: #FF9000;
+}
+.red-text{
+    color: #DC0451;
+}
+
+.m-group{
+    max-height: 600px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.m-group li{
+    cursor: pointer;
+}
+
+.m-pt30{
+    padding-top: 30px;
+}
+.m-mt10{
+    margin-top: 10px;
+}
+.m-mr10{
+    margin-right: 10px;
+}
+
+
+.blinking {
+    animation: fade 1s infinite alternate;
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+} 
+
+.m-fz08{
+    font-size: 0.92rem;
+}
